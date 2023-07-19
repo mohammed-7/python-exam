@@ -1,0 +1,46 @@
+1.In python how many types of errors are possible & define them ?
+    In python two types of errors occur they can be names as : 
+		1.Syntax errors
+                
+		2.Runtime errors
+		
+1. Syntax error: this is the type of error which occurs due to invalid syntax
+2. Run time: This is the type  of error which also know as exceptions, this can occur when programing is done and there's an error at end user 
+	-input or programming logic or memory problems.
+
+2. What is an Exception and write the syntax of exception handling?
+
+	An unwanted and unexpected instance that stirrs or manipulates normal flow of 
+	-program is what we can say as an exception
+	examples: zero div error
+		  Type error
+		  Value error
+		  EOF Error
+	       	  Name error
+
+the syntax for exception handling : 
+ 	try:
+	   Risky Code
+	except xyz:
+		handle the code or showing an alternative code.
+	E.g:try:
+		a=10
+		b=2
+		print("The div of a &b is:", a/b)
+	   except:
+		print("You cannt execute the program")
+
+3) Define User-Defined Exceptions in Python Programming.
+	It is also known as customised or manipulative (programmable)exceptions
+	
+	at some point we ourselves have to rise some of our own exceptions in program explicitly
+	- to indicate that some thing went wrong this type of exceptions are known as user-defined exceptions
+	 some of them are: 
+		try block:
+		raise keyword:
+		final block:
+		except block:
+	try block: we write the code which may rise the query or exception
+	raise block: here the its going to raise the exceptions which is already handled
+	final block: this is executed even if there is an unhandled exception in a program
+	except block: used to handle the exceptions.
